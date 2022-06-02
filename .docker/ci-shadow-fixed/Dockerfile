@@ -1,7 +1,7 @@
-# rethinkroboticsopensource/sns-ik:melodic-ci-shadow-fixed
+# rethinkroboticsopensource/sns-ik:noetic-ci-shadow-fixed
 # Sets up a base image to use for running Continuous Integration on Travis
 
-FROM rethinkroboticsopensource/sns-ik:melodic-ci
+FROM rethinkroboticsopensource/sns-ik:noetic-ci
 MAINTAINER Ian McMahon git@ianthe.engineer
 
 # Switch to ros-shadow-fixed

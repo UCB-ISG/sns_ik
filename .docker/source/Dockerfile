@@ -1,12 +1,12 @@
-# rethinkroboticsopensource/sns-ik:melodic-source
+# rethinkroboticsopensource/sns-ik:noetic-source
 # Downloads the moveit source code, install remaining debian dependencies, and builds workspace
 
-FROM rethinkroboticsopensource/sns-ik:melodic-ci-shadow-fixed
+FROM rethinkroboticsopensource/sns-ik:noetic-ci-shadow-fixed
 MAINTAINER Ian McMahon git@ianthe.engineer
 
 # Setup catkin workspace
 ENV CATKIN_WS=/root/ws_sns_ik
-ENV ROS_DISTRO=melodic
+ENV ROS_DISTRO=noetic
 WORKDIR $CATKIN_WS
 
 # Commands are combined in single RUN statement with "apt/lists" folder removal to reduce image size
